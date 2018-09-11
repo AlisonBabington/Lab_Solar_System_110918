@@ -1,0 +1,33 @@
+body {
+  color: white;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#flex-wrapper {
+  display: flex;
+}
+section {
+  padding: 2em;
+  font-size: 1.5em;
+  font-family: Garamond;
+  margin: 0.5em;
+  background-color: rgba(20,20,20,0.5);
+  text-transform: capitalize;
+  border-radius: 3em;
+}
+ul {
+  list-style-type: none;
+}
+.planets-menu li {
+  border: solid white 1px;
+  padding: 1em;
+}
+.planets-menu li:hover {
+  color: black;
+  background-color: white;
+}
+.planets-menu li:active {
+  color: black;
+  background-color: white;
+}
